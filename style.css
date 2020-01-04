@@ -147,6 +147,35 @@ input, select {
   background-color: #555555;
 }
 
+.index-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "header header header"
+  ". personal-photo ."
+  "about-section about-section about-section"
+  "footer footer footer";
+}
+
+.header{
+  grid-area: header;
+}
+
+.personal-photo{
+  grid-area: personal-photo;
+  justify-self: center;
+}
+
+.about-section{
+  grid-area: about-section;
+  justify-self: center;
+}
+
+.footer{
+  grid-area: footer;
+}
+
 @media screen and (min-width: 768px) {
 
   .nav-links ul{
