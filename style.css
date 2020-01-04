@@ -126,6 +126,27 @@ input, select {
   background-color: #555555;
 }
 
+.footer-links {
+  background: #333333;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links ul a {
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  padding: 10px;
+}
+
+.footer-links ul a:hover {
+  background-color: #555555;
+}
+
 @media screen and (min-width: 768px) {
 
   .nav-links ul{
@@ -133,6 +154,14 @@ input, select {
   }
 
   .nav-links ul li {
+    flex: 1 1 0;
+  }
+
+  .footer-links ul{
+    display: flex;
+  }
+
+  .footer-links ul li {
     flex: 1 1 0;
   }
 
