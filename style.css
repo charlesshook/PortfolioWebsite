@@ -165,6 +165,7 @@ input, select {
 .personal-photo{
   grid-area: personal-photo;
   justify-self: center;
+  align-self: center;
 }
 
 .about-section{
@@ -192,6 +193,17 @@ input, select {
 
   .footer-links ul li {
     flex: 1 1 0;
+  }
+
+  .index-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "personal-photo about-section about-section"
+    "personal-photo about-section about-section"
+    "footer footer footer";
   }
 
 }
