@@ -131,7 +131,7 @@ header nav ul a:hover {
 footer ul {
   background: #333333;
   list-style-type: none;
-  padding: 0;
+  padding: 0px;
 }
 
 footer ul a {
