@@ -107,16 +107,16 @@ input, select {
   background: #8974e8
 }
 
-.header-links {
+header nav {
   background: #333333;
 }
 
-.header-links ul{
+header nav ul{
   list-style-type: none;
   padding: 0;
 }
 
-.header-links ul a {
+header nav ul a {
   text-decoration: none;
   text-align: center;
   color: #FFFFFF;
@@ -124,7 +124,7 @@ input, select {
   padding: 10px;
 }
 
-.header-links ul a:hover {
+header nav ul a:hover {
   background-color: #555555;
 }
 
@@ -160,7 +160,7 @@ input, select {
   "footer footer footer";
 }
 
-.header{
+header{
   grid-area: header;
 }
 
@@ -197,11 +197,11 @@ input, select {
 
 @media screen and (min-width: 768px) {
 
-  .header-links ul{
+  header nav ul{
     display: flex;
   }
 
-  .header-links ul li {
+  header nav ul li {
     flex: 1 1 0;
   }
 
