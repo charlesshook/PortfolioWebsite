@@ -128,16 +128,13 @@ header nav ul a:hover {
   background-color: #555555;
 }
 
-.footer-links {
+footer ul {
   background: #333333;
-}
-
-.footer-links ul {
   list-style-type: none;
   padding: 0;
 }
 
-.footer-links ul a {
+footer ul a {
   text-decoration: none;
   text-align: center;
   color: #FFFFFF;
@@ -145,7 +142,7 @@ header nav ul a:hover {
   padding: 10px;
 }
 
-.footer-links ul a:hover {
+footer ul a:hover {
   background-color: #555555;
 }
 
@@ -160,34 +157,34 @@ header nav ul a:hover {
   "footer footer footer";
 }
 
-header{
+header {
   grid-area: header;
 }
 
-.personal-photo{
+.personal-photo {
   grid-area: personal-photo;
   justify-self: center;
   align-self: center;
 }
 
-.about-section{
+.about-section {
   grid-area: about-section;
   justify-self: center;
 }
 
-.about-section h1{
+.about-section h1 {
   text-align: center;
   font-size: 50px;
   font-weight: 300;
 }
 
-.about-section h3{
+.about-section h3 {
   text-align: center;
   font-size: 22px;
   font-weight: 300;
 }
 
-.footer{
+footer {
   grid-area: footer;
 }
 
@@ -205,11 +202,11 @@ header{
     flex: 1 1 0;
   }
 
-  .footer-links ul{
+  footer ul {
     display: flex;
   }
 
-  .footer-links ul li {
+  footer ul li {
     flex: 1 1 0;
   }
 
